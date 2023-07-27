@@ -26,7 +26,22 @@
 <body>
     <header class="md:container md:max-w-screen-2xl m-auto">
         <nav>
-            <div class="navbar bg-base-100 bg-[#F85559] rounded-full mt-14 mb-16">
+            <div class="navbar bg-base-100 lg:bg-[#F85559] rounded-full  lg:mt-14 lg:mb-16">
+
+                <div class="dropdown order-2">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden ">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li>
+                        <a>About Us</a>
+                      </li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+
                 <div class="navbar-start ml-8">
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal text-white text-lg">
@@ -37,16 +52,19 @@
                         </ul>
                     </div>
                 </div>
-                <div class="my-7 w-80 m-auto">
-                    <img src="images/logo.png" alt="">
-                    <h3 class="text-xl font-bold lg:text-4xl lg:font-bold text-white min-w-full">Fruit Burst</h3>
+
+
+                <div class="my-7 w-80 m-auto order-first ml-3 lg:order-none">
+                    <img class="w-5 lg:w-auto" src="images/logo.png" alt="">
+                    <h3 class="text-lg font-bold lg:text-4xl lg:font-bold lg:text-white min-w-full">Fruit Burst</h3>
                 </div>
                 
-                <div class="navbar-end ">
-                    <div class="relative mr-10 ">
+
+                <div class="navbar-end hidden lg:block">
+                    <div class="relative mr-10 text-right">
                         <input type="text" placeholder="Search Here"
                             class="w-72 py-2 px-4 rounded-full bg-gray-100 text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-200 focus:border-transparent" />
-                        <i class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none ">
+                        <i class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                             <i class="fas fa-search text-gray-500"></i>
                         </i>
                     </div>
