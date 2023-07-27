@@ -18,90 +18,113 @@
     <!-- font icons -->
     <script src="https://kit.fontawesome.com/0e26818c74.js" crossorigin="anonymous"></script>
 
-   
+
 
 </head>
 
 <body>
     <header class="md:container md:max-w-screen-2xl m-auto">
         <nav>
+            <div class="navbar bg-base-100 bg-red-400 rounded-full mt-14 mb-16">
+                <div class="navbar-start ml-8">
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal text-white text-lg">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="my-7 w-80 m-auto">
+                    <img src="images/logo.png" alt="">
+                    <h3 class="text-xl font-bold lg:text-4xl lg:font-bold text-white min-w-full">Fruit Burst</h3>
+                </div>
+                <div class="navbar-end">
+                    <div class="relative mr-10">
+                        <input type="text" placeholder="Search Here"
+                            class="w-72 py-2 px-4 rounded-full bg-gray-100 text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-200 focus:border-transparent" />
+                        <i class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none ">
+                            <i class="fas fa-search text-gray-500"></i>
+                        </i>
+                    </div>
+                </div>
+            </div>
         </nav>
+
+        <!-- slider section -->
         <div class="relative">
 
             <!-- carousel container -->
             <div class="carousel w-full ">
 
                 <!-- slider 1 -->
-                <div id="slide1"
-                    class="carousel-item relative w-full ">
+                <div id="slide1" class="carousel-item relative w-full ">
                     <div class="hero min-h-[600px]" style="background-image: url(images/banner1.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center p-0 -mt-28">
-                          <div class="max-w-3xl ">
-                            <h1 class="mb-5 text-2xl lg:text-7xl font-bold text-white">Exotic tastes at your
-                                doorstep</h1>
-                            <p class="text-xl mb-5 text-white">We supply highly quality organic products</p>
-                            <button class="btn btn-ghost text-white bg-[#F85559]">Shop Now</button>
-                          </div>
+                            <div class="max-w-3xl ">
+                                <h1 class="mb-5 text-2xl lg:text-7xl font-bold text-white">Exotic tastes at your
+                                    doorstep</h1>
+                                <p class="text-xl mb-5 text-white">We supply highly quality organic products</p>
+                                <button class="btn btn-ghost text-white bg-[#F85559]">Shop Now</button>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle ">❯</a>
                     </div>
                 </div>
                 <!-- slider 2 -->
-                <div id="slide2"
-                    class="carousel-item relative w-full ">
+                <div id="slide2" class="carousel-item relative w-full ">
                     <div class="hero min-h-[600px]" style="background-image: url(images/banner2.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center p-0 -mt-28">
-                          <div class="max-w-3xl ">
-                            <h1 class="mb-5 text-2xl lg:text-7xl font-bold text-white">Exotic tastes at your
-                                doorstep</h1>
-                            <p class="text-xl mb-5 text-white">We supply highly quality organic products</p>
-                            <button class="btn btn-ghost text-white bg-[#F85559]">Shop Now</button>
-                          </div>
+                            <div class="max-w-3xl ">
+                                <h1 class="mb-5 text-2xl lg:text-7xl font-bold text-white">Exotic tastes at your
+                                    doorstep</h1>
+                                <p class="text-xl mb-5 text-white">We supply highly quality organic products</p>
+                                <button class="btn btn-ghost text-white bg-[#F85559]">Shop Now</button>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle ">❮</a>
                         <a href="#slide3" class="btn btn-circle ">❯</a>
                     </div>
                 </div>
                 <!-- slider 3 -->
-                <div id="slide3"
-                    class="carousel-item relative w-full ">
+                <div id="slide3" class="carousel-item relative w-full ">
                     <div class="hero min-h-[600px]" style="background-image: url(images/banner3.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center p-0 -mt-28">
-                          <div class="max-w-3xl ">
-                            <h1 class="mb-5 text-2xl lg:text-7xl font-bold text-white">Exotic tastes at your
-                                doorstep</h1>
-                            <p class="text-xl mb-5 text-white">We supply highly quality organic products</p>
-                            <button class="btn btn-ghost text-white bg-[#F85559]">Shop Now</button>
-                          </div>
+                            <div class="max-w-3xl ">
+                                <h1 class="mb-5 text-2xl lg:text-7xl font-bold text-white">Exotic tastes at your
+                                    doorstep</h1>
+                                <p class="text-xl mb-5 text-white">We supply highly quality organic products</p>
+                                <button class="btn btn-ghost text-white bg-[#F85559]">Shop Now</button>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle ">❮</a>
                         <a href="#slide4" class="btn btn-circle ">❯</a>
                     </div>
                 </div>
                 <!-- slider 4 -->
-                <div id="slide4"
-                    class="carousel-item relative w-full ">
+                <div id="slide4" class="carousel-item relative w-full ">
                     <div class="hero min-h-[600px]" style="background-image: url(images/banner4.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center p-0 -mt-28">
-                          <div class="max-w-3xl ">
-                            <h1 class="mb-5 text-2xl lg:text-7xl font-bold text-white">Exotic tastes at your
-                                doorstep</h1>
-                            <p class="text-xl mb-5 text-white">We supply highly quality organic products</p>
-                            <button class="btn btn-ghost text-white bg-[#F85559]">Shop Now</button>
-                          </div>
+                            <div class="max-w-3xl ">
+                                <h1 class="mb-5 text-2xl lg:text-7xl font-bold text-white">Exotic tastes at your
+                                    doorstep</h1>
+                                <p class="text-xl mb-5 text-white">We supply highly quality organic products</p>
+                                <button class="btn btn-ghost text-white bg-[#F85559]">Shop Now</button>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn btn-circle ">❮</a>
                         <a href="#slide1" class="btn btn-circle ">❯</a>
@@ -458,7 +481,8 @@
                 <div class="hero-content text-center text-neutral-content flex-col my-28">
                     <div class="max-w-xl m-auto">
                         <h1 class="mb-5 text-xl font-extrabold lg:text-5xl lg:font-extrabold">Meet Our Team </h1>
-                        <p class="mb-10 text-sm font-medium lg:text-lg lg:font-normal">Contrary to popular belief, is not simply random text. It
+                        <p class="mb-10 text-sm font-medium lg:text-lg lg:font-normal">Contrary to popular belief, is
+                            not simply random text. It
                             has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
                             old.</p>
                     </div>
@@ -514,7 +538,8 @@
         <section class=" my-36 ">
             <div class="">
                 <h3 class="text-xl font-extrabold lg:text-5xl lg:font-extrabold mb-6 text-center">Why Choose Us</h3>
-                <p class="text-sm font-medium lg:text-lg lg:font-normal lg:max-w-xl px-4 m-auto text-center mb-12">Contrary
+                <p class="text-sm font-medium lg:text-lg lg:font-normal lg:max-w-xl px-4 m-auto text-center mb-12">
+                    Contrary
                     to popular belief, is not simply random text. It has roots in a piece of classical Latin literature
                     from 45 BC, making it over 2000 years old.</p>
             </div>
@@ -527,12 +552,16 @@
                     <!-- div 1 -->
                     <div class="card lg:card-side bg-base-100 ">
                         <figure class="rounded-full w-20 h-20 relative ">
-                            <i class="fa-solid fa-users fa-2xl bg-[#12121219] lg:flex lg:justify-center lg:items-center"></i>
+                            <i
+                                class="fa-solid fa-users fa-2xl bg-[#12121219] lg:flex lg:justify-center lg:items-center"></i>
                         </figure>
                         <div class="card-body p-8 md:pl-6 md:pr-0 md:pt-0 max-w-sm">
-                            <h3 class="card-title text-xl font-bold lg:text-3xl lg:font-bold justify-center lg:justify-normal">Dedicated Team</h3>
-                            <div class="w-28 h-0.5 bg-black "></div> 
-                            <p class="text-sm font-medium lg:text-lg lg:font-medium ">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <h3
+                                class="card-title text-xl font-bold lg:text-3xl lg:font-bold justify-center lg:justify-normal">
+                                Dedicated Team</h3>
+                            <div class="w-28 h-0.5 bg-black "></div>
+                            <p class="text-sm font-medium lg:text-lg lg:font-medium ">Professional employees are there
+                                for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
 
@@ -543,8 +572,9 @@
                         </figure>
                         <div class="card-body p-8 md:pl-6 md:pr-0 md:pt-0 max-w-sm">
                             <h3 class="card-title text-xl font-bold lg:text-3xl lg:font-bold">Fresh is Best</h3>
-                            <div class="w-28 h-0.5 bg-black "></div> 
-                            <p class="text-sm font-medium lg:text-lg lg:font-medium">Professional employees are there for you to pick the most
+                            <div class="w-28 h-0.5 bg-black "></div>
+                            <p class="text-sm font-medium lg:text-lg lg:font-medium">Professional employees are there
+                                for you to pick the most
                                 amazing and fresh fruits.</p>
 
                         </div>
@@ -557,8 +587,9 @@
                         </figure>
                         <div class="card-body p-8 md:pl-6 md:pr-0 md:pt-0 max-w-sm">
                             <h3 class="card-title text-xl font-bold lg:text-3xl lg:font-bold">Gift Certificates</h3>
-                            <div class="w-28 h-0.5 bg-black "></div> 
-                            <p class="text-sm font-medium lg:text-lg lg:font-medium ">Professional employees are there for you to pick the
+                            <div class="w-28 h-0.5 bg-black "></div>
+                            <p class="text-sm font-medium lg:text-lg lg:font-medium ">Professional employees are there
+                                for you to pick the
                                 most amazing and fresh fruits.</p>
 
                         </div>
@@ -569,7 +600,7 @@
                 <div class="h-72 lg:h-auto flex m-auto order-first lg:order-none">
                     <img src="images/whychoose1.png" alt="">
                 </div>
- 
+
                 <!-- 3rd contain -->
                 <div class="lg:mt-2">
                     <div class="card lg:card-side bg-base-100 lg:flex-row-reverse">
@@ -577,9 +608,11 @@
                             <i class="fa-regular fa-lemon fa-2xl bg-[#12121219] flex justify-center items-center"></i>
                         </figure>
                         <div class="card-body p-8 md:pl-0 md:pr-8 md:pt-0 max-w-sm text-right">
-                            <h3 class="card-title text-xl font-bold lg:text-3xl lg:font-bold justify-end">Integrated Supplier</h3>
-                            <div class="w-28 h-0.5 bg-black ml-auto"></div> 
-                            <p class="text-sm font-medium lg:text-lg lg:font-medium">Professional employees are there for you to pick the most
+                            <h3 class="card-title text-xl font-bold lg:text-3xl lg:font-bold justify-end">Integrated
+                                Supplier</h3>
+                            <div class="w-28 h-0.5 bg-black ml-auto"></div>
+                            <p class="text-sm font-medium lg:text-lg lg:font-medium">Professional employees are there
+                                for you to pick the most
                                 amazing and fresh fruits.</p>
 
                         </div>
@@ -590,9 +623,11 @@
                             <i class="fa-solid fa-tag fa-2xl bg-[#12121219] flex justify-center items-center"></i>
                         </figure>
                         <div class="card-body p-8 md:pl-0 md:pr-8 md:pt-0 max-w-sm text-right">
-                            <h3 class="card-title text-xl font-bold lg:text-3xl lg:font-bold justify-end">Sustainable Practice</h3>
+                            <h3 class="card-title text-xl font-bold lg:text-3xl lg:font-bold justify-end">Sustainable
+                                Practice</h3>
                             <div class="w-28 h-0.5 bg-black ml-auto"></div>
-                            <p class="text-sm font-medium lg:text-lg lg:font-medium">Professional employees are there for you to pick the most
+                            <p class="text-sm font-medium lg:text-lg lg:font-medium">Professional employees are there
+                                for you to pick the most
                                 amazing and fresh fruits.</p>
 
                         </div>
@@ -604,9 +639,11 @@
                                 class="fa-solid fa-hand-holding-dollar fa-2xl bg-[#12121219] flex justify-center items-center"></i>
                         </figure>
                         <div class="card-body p-8 md:pl-0 md:pr-8 md:pt-0 max-w-sm text-right">
-                            <h3 class="card-title text-xl font-bold lg:text-3xl lg:font-bold justify-end">The Benefits Only</h3>
-                            <hr class="w-28 h-0.5 bg-black ml-auto">
-                            <p class="text-sm font-medium lg:text-lg lg:font-medium ">Professional employees are there for you to pick the most
+                            <h3 class="card-title text-xl font-bold lg:text-3xl lg:font-bold justify-end">The Benefits
+                                Only</h3>
+                                <div class="w-28 h-0.5 bg-black ml-auto"></div>
+                            <p class="text-sm font-medium lg:text-lg lg:font-medium ">Professional employees are there
+                                for you to pick the most
                                 amazing and fresh fruits.</p>
 
                         </div>
